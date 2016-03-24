@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0BC6A1B41C9A16B100B83091 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6A1B31C9A16B100B83091 /* main.cpp */; };
+		0BC6A1BB1C9B608000B83091 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6A1BA1C9B608000B83091 /* Rectangle.cpp */; };
+		0BC6A1BE1C9B643B00B83091 /* Cercle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6A1BD1C9B643B00B83091 /* Cercle.cpp */; };
+		0BC6A1C01C9F1DE100B83091 /* imc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6A1BF1C9F1DE100B83091 /* imc.cc */; };
+		0BC6A1C21C9F238000B83091 /* tirelire.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6A1C11C9F238000B83091 /* tirelire.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		0BC6A1B01C9A16B100B83091 /* MOOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MOOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC6A1B31C9A16B100B83091 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BC6A1BA1C9B608000B83091 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		0BC6A1BD1C9B643B00B83091 /* Cercle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cercle.cpp; sourceTree = "<group>"; };
+		0BC6A1BF1C9F1DE100B83091 /* imc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imc.cc; sourceTree = "<group>"; };
+		0BC6A1C11C9F238000B83091 /* tirelire.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tirelire.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		0BC6A1B21C9A16B100B83091 /* MOOC */ = {
 			isa = PBXGroup;
 			children = (
+				0BC6A1C11C9F238000B83091 /* tirelire.cc */,
+				0BC6A1BF1C9F1DE100B83091 /* imc.cc */,
+				0BC6A1BD1C9B643B00B83091 /* Cercle.cpp */,
+				0BC6A1BA1C9B608000B83091 /* Rectangle.cpp */,
 				0BC6A1B31C9A16B100B83091 /* main.cpp */,
 			);
 			path = MOOC;
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC6A1BE1C9B643B00B83091 /* Cercle.cpp in Sources */,
 				0BC6A1B41C9A16B100B83091 /* main.cpp in Sources */,
+				0BC6A1BB1C9B608000B83091 /* Rectangle.cpp in Sources */,
+				0BC6A1C01C9F1DE100B83091 /* imc.cc in Sources */,
+				0BC6A1C21C9F238000B83091 /* tirelire.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +251,7 @@
 				0BC6A1B91C9A16B100B83091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

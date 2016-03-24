@@ -7,9 +7,16 @@
 //
 
 #include <iostream>
+#include <vector>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}
+#include "Rectangle.cpp"
+
+//int main()
+//{
+//    Rectangle rect;
+//    rect.setHauteur(2.0);
+//    rect.setLargeur(3.0);
+//    std::cout << rect.surface();
+//    return 0;
+//}
+
